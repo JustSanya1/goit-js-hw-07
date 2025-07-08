@@ -10,8 +10,9 @@ const bodyEl = document.querySelector('body');
 const spanEl = document.querySelector('.color');
 
 const onClick = (event) => {
-  bodyEl.style.backgroundColor = getRandomHexColor();
-  spanEl.textContent = `${getRandomHexColor()}`
+  let color = getRandomHexColor();
+  bodyEl.style.backgroundColor = color;
+  spanEl.textContent = `${color}`
 
 };
 
