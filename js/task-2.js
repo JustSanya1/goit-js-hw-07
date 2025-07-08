@@ -35,13 +35,9 @@ htmlStrings.push(`<li class="list">
 });
 htmlStrings = htmlStrings.join('');
 unorderedListEl.insertAdjacentHTML('afterbegin', htmlStrings);
-
-unorderedListEl.style.display = "flex";
-unorderedListEl.style.flexWrap = "wrap";
-
 const imageEl = document.querySelectorAll('.image');
+
 imageEl.forEach(el => {
-  el.style.width = "500px";
-  el.style.height = "500px";
+  imageEl.classList.add('image')
 })
 
