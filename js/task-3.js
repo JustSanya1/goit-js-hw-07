@@ -1,6 +1,5 @@
 const inputEl = document.querySelector('#name-input');
 const spanEl = document.querySelector('#name-output');
-console.dir(inputEl);
 const onInput = (event) => {
     const inputValue = event.currentTarget.value.trim()
     if (inputValue === "") {
