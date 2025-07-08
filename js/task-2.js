@@ -35,9 +35,5 @@ htmlStrings.push(`<li class="list">
 });
 htmlStrings = htmlStrings.join('');
 unorderedListEl.insertAdjacentHTML('afterbegin', htmlStrings);
-const imageEl = document.querySelectorAll('.image');
 
-imageEl.forEach(el => {
-  imageEl.classList.add('image')
-})
 
